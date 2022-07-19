@@ -1,5 +1,6 @@
-@import url("fontawesome-all.min.css");
-@import url("https://fonts.googleapis.com/css?family=Lato:400,400italic,700,700italic|Source+Code+Pro:400");
+/*@import url("fontawesome-all.min.css");*/
+@import url("all.min.css");
+/*@import url("https://fonts.googleapis.com/css?family=Lato:400,400italic,700,700italic|Source+Code+Pro:400");*/
 
 @font-face {
   font-family: "Fira Sans";
@@ -89,7 +90,14 @@ input, select, textarea {
 
 	body {
 		background: #fff;
+		scrollbar-width: none; /* Firefox */
+    -ms-overflow-style: none;  /* Internet Explorer 10+ */
 	}
+
+		body::-webkit-scrollbar { /* WebKit */
+	    width: 0;
+	    height: 0;
+		}
 
 		body.is-preload *, body.is-preload *:before, body.is-preload *:after {
 			-moz-animation: none !important;
@@ -2175,6 +2183,10 @@ input, select, textarea {
 			top: 0.25em;
 		}
 
+		.image.left.moved-up {
+			margin-top: -1em;
+		}
+
 		.image.right {
 			float: right;
 			margin: 0 0 2em 2.5em;
@@ -2211,7 +2223,7 @@ input, select, textarea {
 
 			.image.main h1 {
 				position: absolute;
-		    top: 50%;
+		    top: 30%;
 		    z-index: 2;
 		    font-size: 3em;
 		    color: white;
@@ -2427,7 +2439,7 @@ input, select, textarea {
 			}
 
 			ul.feature-icons li:before {
-				background: #4acaa8;
+				background: #014f7c; /*#4acaa8;*/
 				border-radius: 100%;
 				color: #ffffff;
 				display: block;
