@@ -2359,6 +2359,11 @@ input, select, textarea {
 
 		@media screen and (max-width: 480px) {
 
+			.image.left.moved-up {
+				float: none;
+				margin-bottom:  0;
+			}
+
 			ul.actions:not(.fixed) {
 				-moz-flex-direction: column;
 				-webkit-flex-direction: column;
