@@ -2365,6 +2365,10 @@ input, select, textarea {
 				margin-bottom:  0;
 			}
 
+			#titleBar .title {
+				display:  none;
+			}
+
 			ul.actions:not(.fixed) {
 				-moz-flex-direction: column;
 				-webkit-flex-direction: column;
