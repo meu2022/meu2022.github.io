@@ -82,6 +82,7 @@ input, select, textarea {
 
 	html {
 		box-sizing: border-box;
+		scrollbar-width: none;
 	}
 
 	*, *:before, *:after {
